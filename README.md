@@ -54,9 +54,11 @@ My goal is to become a well-rounded developer who can take an idea from interfac
 
 ## Contribution journey
 
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vinny2707&bg_color=0d1117&color=bbf7d0&line=22c55e&point=86efac&area=true&area_color=14532d&hide_border=true&custom_title=Keep%20building%20%E2%80%A2%20Keep%20learning" width="100%" alt="GitHub contribution activity graph" />
-</div>
+<img
+  src="https://ghchart.rshah.org/16a34a/vinny2707"
+  width="100%"
+  alt="Vinny's GitHub contribution chart"
+/>
 
 ## Let's connect
 
