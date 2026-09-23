@@ -1,0 +1,55 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Nguyễn Khắc Vượng — Full-stack Developer</title>
+  <desc id="desc">Dark green developer profile banner with a code icon and connected nodes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06150D"/>
+      <stop offset="0.52" stop-color="#0A281A"/>
+      <stop offset="1" stop-color="#064E3B"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="208" y1="175" x2="650" y2="175" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4ADE80"/>
+      <stop offset="1" stop-color="#A3E635"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" stroke="#4ADE80" stroke-opacity="0.05"/>
+    </pattern>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="320" rx="28" fill="url(#grid)"/>
+  <circle cx="1055" cy="62" r="175" fill="#22C55E" fill-opacity="0.07" filter="url(#glow)"/>
+
+  <g transform="translate(80 78)">
+    <rect width="92" height="92" rx="22" fill="#16A34A" fill-opacity="0.25" stroke="#4ADE80" stroke-width="2"/>
+    <path d="M36 31L19 46L36 61M56 31L73 46L56 61" stroke="#DCFCE7" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="208" y="126" fill="#F0FDF4" font-size="40" font-weight="800" letter-spacing="1.2">NGUYEN KHAC VUONG</text>
+    <rect x="208" y="148" width="438" height="5" rx="2.5" fill="url(#accent)"/>
+    <text x="208" y="196" fill="#86EFAC" font-size="21" font-weight="700" letter-spacing="3.4">FULL-STACK DEVELOPER</text>
+    <text x="208" y="236" fill="#D1FAE5" font-size="18">Learning by building • Growing through real projects</text>
+
+    <g transform="translate(208 255)">
+      <rect width="386" height="38" rx="19" fill="#020B06" fill-opacity="0.76" stroke="#166534"/>
+      <circle cx="22" cy="19" r="4" fill="#A3E635"/>
+      <text x="38" y="25" fill="#BBF7D0" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="14">github.com/vinny2707</text>
+    </g>
+  </g>
+
+  <g stroke="#4ADE80" stroke-width="2.2">
+    <path d="M872 82L953 130L1034 81M953 130V212M953 212L1034 260L1115 212V130L1034 81" opacity="0.85"/>
+    <circle cx="872" cy="82" r="10" fill="#052E16"/>
+    <circle cx="953" cy="130" r="10" fill="#052E16"/>
+    <circle cx="1034" cy="81" r="10" fill="#052E16"/>
+    <circle cx="1115" cy="130" r="10" fill="#052E16"/>
+    <circle cx="953" cy="212" r="10" fill="#052E16"/>
+    <circle cx="1034" cy="260" r="10" fill="#052E16"/>
+    <circle cx="1115" cy="212" r="10" fill="#052E16"/>
+  </g>
+</svg>
